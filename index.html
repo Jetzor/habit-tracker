@@ -1,19 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>habit-tracker</title>
 
-    <!-- Tailwind CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- Tell Tailwind to use class-based dark mode -->
+    <!-- Tailwind config MUST come BEFORE the CDN script -->
     <script>
-        tailwind.config = {
-            darkMode: "class",
+        window.tailwind = {
+            config: {
+                darkMode: "class",
+            },
         };
     </script>
+    <script src="https://cdn.tailwindcss.com"></script>
   <script type="module" crossorigin src="/assets/index-D098BCDk.js"></script>
   <link rel="stylesheet" crossorigin href="/assets/index-tn0RQdqM.css">
 </head>
